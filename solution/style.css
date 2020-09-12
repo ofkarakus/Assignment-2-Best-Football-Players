@@ -1,0 +1,504 @@
+@import url("https://fonts.googleapis.com/css2?family=Niconne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header #title {
+  font-family: 'Patua One', cursive;
+  text-align: center;
+  font-size: 4vw;
+  color: crimson;
+  margin: 2vh;
+}
+
+header .description {
+  font-family: 'Crimson Text', serif;
+  color: #b6cd32;
+  margin: 3vh;
+}
+
+header .description__title {
+  font-size: 3vw;
+  text-align: center;
+}
+
+header .description__text {
+  font-size: 2vw;
+  text-align: justify;
+  margin: 1.5vw 3vw;
+}
+
+header .description__text__title {
+  display: block;
+  text-align: center;
+  margin-bottom: 1vh;
+}
+
+main .messi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 10vh 3vw;
+}
+
+main .messi__hero {
+  width: 70%;
+}
+
+main .messi__hero__img {
+  width: 100%;
+  height: auto;
+  border-radius: 5vw;
+}
+
+main .messi__hero__img:hover {
+  -webkit-box-shadow: 0px 0px 5vw red;
+          box-shadow: 0px 0px 5vw red;
+}
+
+main .messi__hero__name {
+  width: 100%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Niconne', cursive;
+  color: #b6cd32;
+}
+
+main .messi__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 3vw;
+}
+
+main .messi__info__position {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #b6cd32;
+}
+
+main .messi__info__summary {
+  border: hidden solid;
+  width: 24vw;
+  height: 75%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 3vw;
+  background-color: #bbac81;
+  border-radius: 1vw;
+}
+
+main .ronaldo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 10vh 3vw;
+}
+
+main .ronaldo__hero {
+  width: 70%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+main .ronaldo__hero__img {
+  width: 100%;
+  height: auto;
+  border-radius: 5vw;
+}
+
+main .ronaldo__hero__img:hover {
+  -webkit-box-shadow: 0px 0px 5vw red;
+          box-shadow: 0px 0px 5vw red;
+}
+
+main .ronaldo__hero__name {
+  width: 100%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Niconne', cursive;
+  color: #b6cd32;
+}
+
+main .ronaldo__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 3vw;
+}
+
+main .ronaldo__info__position {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  color: #b6cd32;
+}
+
+main .ronaldo__info__summary {
+  border: hidden solid;
+  width: 24vw;
+  height: 75%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 3vw;
+  background-color: #bbac81;
+  border-radius: 1vw;
+}
+
+main .ronaldinho {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 10vh 3vw;
+}
+
+main .ronaldinho__hero {
+  width: 70%;
+}
+
+main .ronaldinho__hero__img {
+  width: 100%;
+  height: auto;
+  border-radius: 5vw;
+}
+
+main .ronaldinho__hero__img:hover {
+  -webkit-box-shadow: 0px 0px 5vw red;
+          box-shadow: 0px 0px 5vw red;
+}
+
+main .ronaldinho__hero__name {
+  width: 100%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Niconne', cursive;
+  color: #b6cd32;
+}
+
+main .ronaldinho__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 3vw;
+}
+
+main .ronaldinho__info__position {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #b6cd32;
+}
+
+main .ronaldinho__info__summary {
+  border: hidden solid;
+  width: 24vw;
+  height: 75%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 3vw;
+  background-color: #bbac81;
+  border-radius: 1vw;
+}
+
+main .pele {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 10vh 3vw;
+}
+
+main .pele__hero {
+  width: 70%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+main .pele__hero__img {
+  width: 100%;
+  height: auto;
+  border-radius: 5vw;
+}
+
+main .pele__hero__img:hover {
+  -webkit-box-shadow: 0px 0px 5vw red;
+          box-shadow: 0px 0px 5vw red;
+}
+
+main .pele__hero__name {
+  width: 100%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Niconne', cursive;
+  color: #b6cd32;
+}
+
+main .pele__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 3vw;
+}
+
+main .pele__info__position {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  color: #b6cd32;
+}
+
+main .pele__info__summary {
+  border: hidden solid;
+  width: 24vw;
+  height: 63%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 3vw;
+  background-color: #bbac81;
+  border-radius: 1vw;
+}
+
+main .maradona {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 10vh 3vw;
+}
+
+main .maradona__hero {
+  width: 70%;
+}
+
+main .maradona__hero__img {
+  width: 100%;
+  height: auto;
+  border-radius: 5vw;
+}
+
+main .maradona__hero__img:hover {
+  -webkit-box-shadow: 0px 0px 5vw red;
+          box-shadow: 0px 0px 5vw red;
+}
+
+main .maradona__hero__name {
+  width: 100%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Niconne', cursive;
+  color: #b6cd32;
+}
+
+main .maradona__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 3vw;
+}
+
+main .maradona__info__position {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #b6cd32;
+}
+
+main .maradona__info__summary {
+  border: hidden solid;
+  width: 24vw;
+  height: 67%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 3vw;
+  background-color: #bbac81;
+  border-radius: 1vw;
+}
+
+main .salah {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 10vh 3vw;
+}
+
+main .salah__hero {
+  width: 70%;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+main .salah__hero__img {
+  width: 100%;
+  height: auto;
+  border-radius: 5vw;
+}
+
+main .salah__hero__img:hover {
+  -webkit-box-shadow: 0px 0px 5vw red;
+          box-shadow: 0px 0px 5vw red;
+}
+
+main .salah__hero__name {
+  width: 100%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-align: center;
+  font-size: 3vw;
+  font-family: 'Niconne', cursive;
+  color: #b6cd32;
+}
+
+main .salah__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-size: 3vw;
+}
+
+main .salah__info__position {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  color: #b6cd32;
+}
+
+main .salah__info__summary {
+  border: hidden solid;
+  width: 24vw;
+  height: 65%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-right: 3vw;
+  background-color: #bbac81;
+  border-radius: 1vw;
+}
+
+body {
+  background-image: url(./images/background-small.png);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style.css.map */

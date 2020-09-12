@@ -1,0 +1,332 @@
+main {
+    .messi {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 10vh 3vw;
+
+        &__hero{
+            width: 70%;
+            
+            &__img {
+                width: 100%;
+                height: auto;
+                border-radius: 5vw;
+
+                &:hover {
+                    box-shadow: 0px 0px 5vw red;
+                }
+            }
+
+            &__name {
+                width: 100%;
+                align-self: flex-start;
+                text-align: center;
+                font-size: 3vw;
+                font-family: 'Niconne', cursive;
+                color: $primaryColor;
+            }
+        }
+
+        &__info {
+            display: flex;
+            flex-direction: row;
+            font-size: 3vw;
+
+            &__position {
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                align-self: center;
+                color: $primaryColor;
+
+            }
+
+            &__summary {
+                border: hidden solid;
+                width: 24vw;
+                height: 75%;
+                align-self: center;
+                margin-left: 3vw;
+                background-color: rgb(187, 172, 129);
+                border-radius: 1vw;
+            }
+        }
+    }
+
+    .ronaldo {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 10vh 3vw;
+
+        &__hero{
+            width: 70%;
+            order: 1;
+            
+            &__img {
+                width: 100%;
+                height: auto;
+                border-radius: 5vw;
+
+                &:hover {
+                    box-shadow: 0px 0px 5vw red;
+                }
+            }
+
+            &__name {
+                width: 100%;
+                align-self: flex-end;
+                text-align: center;
+                font-size: 3vw;
+                font-family: 'Niconne', cursive;
+                color: $primaryColor;
+
+            }
+        }
+
+        &__info {
+            display: flex;
+            flex-direction: row;
+            font-size: 3vw;
+
+            &__position {
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                align-self: center;
+                order: 1;
+                color: $primaryColor;
+
+            }
+
+            &__summary {
+                border: hidden solid;
+                width: 24vw;
+                height: 75%;
+                align-self: center;
+                margin-right: 3vw;
+                background-color: rgb(187, 172, 129);
+                border-radius: 1vw;
+            }
+        }
+    }
+    .ronaldinho {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 10vh 3vw;
+
+        &__hero{
+            width: 70%;
+            
+            &__img {
+                width: 100%;
+                height: auto;
+                border-radius: 5vw;
+
+                &:hover {
+                    box-shadow: 0px 0px 5vw red;
+                }
+            }
+
+            &__name {
+                width: 100%;
+                align-self: flex-start;
+                text-align: center;
+                font-size: 3vw;
+                font-family: 'Niconne', cursive;
+                color: $primaryColor;
+
+            }
+        }
+
+        &__info {
+            display: flex;
+            flex-direction: row;
+            font-size: 3vw;
+
+            &__position {
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                align-self: center;
+                color: $primaryColor;
+
+            }
+
+            &__summary {
+                border: hidden solid;
+                width: 24vw;
+                height: 75%;
+                align-self: center;
+                margin-left: 3vw;
+                background-color: rgb(187, 172, 129);
+                border-radius: 1vw;
+            }
+        }
+    }
+    .pele {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 10vh 3vw;
+
+        &__hero{
+            width: 70%;
+            order: 1;
+            
+            &__img {
+                width: 100%;
+                height: auto;
+                border-radius: 5vw;
+
+                &:hover {
+                    box-shadow: 0px 0px 5vw red;
+                }
+            }
+
+            &__name {
+                width: 100%;
+                align-self: flex-end;
+                text-align: center;
+                font-size: 3vw;
+                font-family: 'Niconne', cursive;
+                color: $primaryColor;
+
+            }
+        }
+
+        &__info {
+            display: flex;
+            flex-direction: row;
+            font-size: 3vw;
+
+            &__position {
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                align-self: center;
+                order: 1;
+                color: $primaryColor;
+
+            }
+
+            &__summary {
+                border: hidden solid;
+                width: 24vw;
+                height: 63%;
+                align-self: center;
+                margin-right: 3vw;
+                background-color: rgb(187, 172, 129);
+                border-radius: 1vw;
+            }
+        }
+    }
+    .maradona {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 10vh 3vw;
+
+        &__hero{
+            width: 70%;
+            
+            &__img {
+                width: 100%;
+                height: auto;
+                border-radius: 5vw;
+
+                &:hover {
+                    box-shadow: 0px 0px 5vw red;
+                }
+            }
+
+            &__name {
+                width: 100%;
+                align-self: flex-start;
+                text-align: center;
+                font-size: 3vw;
+                font-family: 'Niconne', cursive;
+                color: $primaryColor;
+
+            }
+        }
+
+        &__info {
+            display: flex;
+            flex-direction: row;
+            font-size: 3vw;
+
+            &__position {
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                align-self: center;
+                color: $primaryColor;
+
+            }
+
+            &__summary {
+                border: hidden solid;
+                width: 24vw;
+                height: 67%;
+                align-self: center;
+                margin-left: 3vw;
+                background-color: rgb(187, 172, 129);
+                border-radius: 1vw;
+            }
+        }
+    }
+    .salah {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 10vh 3vw;
+
+        &__hero{
+            width: 70%;
+            order: 1;
+            
+            &__img {
+                width: 100%;
+                height: auto;
+                border-radius: 5vw;
+
+                &:hover {
+                    box-shadow: 0px 0px 5vw red;
+                }
+            }
+
+            &__name {
+                width: 100%;
+                align-self: flex-end;
+                text-align: center;
+                font-size: 3vw;
+                font-family: 'Niconne', cursive;
+                color: $primaryColor;
+
+            }
+        }
+
+        &__info {
+            display: flex;
+            flex-direction: row;
+            font-size: 3vw;
+
+            &__position {
+                writing-mode: vertical-rl;
+                text-orientation: upright;
+                align-self: center;
+                order: 1;
+                color: $primaryColor;
+
+            }
+
+            &__summary {
+                border: hidden solid;
+                width: 24vw;
+                height: 65%;
+                align-self: center;
+                margin-right: 3vw;
+                background-color: rgb(187, 172, 129);
+                border-radius: 1vw;
+            }
+        }
+    }
+}
